@@ -35,11 +35,12 @@ export default function WelcomeModal() {
             />
           </picture>
 
-          <p className="py-4 flex justify-center">
+          <div className="py-4 flex flex-col gap-6 text-center justify-center">
             Chegas-te a um sítio muito perigoso, tens a certeza que queres
             continuar? Clica em Continuar ou ESC, os dois levam-te por caminhos
             longínquos... !
-          </p>
+            <p>Se tens o SOM muito ALTO ... CUIDAAADO!</p>
+          </div>
 
           <div className="modal-action">
             <form method="dialog">

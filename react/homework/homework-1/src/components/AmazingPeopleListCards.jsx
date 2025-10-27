@@ -1,4 +1,3 @@
-import React from "react";
 import AmazingPeopleCard from "./AmazingPeopleCard";
 
 const AmazingPeopleListCards = ({ people }) => {
